@@ -64,7 +64,7 @@ DateTimeWidgets.prototype = {
 
         var self = this;
 
-        $container.find('.form-row .vDateField').each(function () {
+        $container.find('.vDateField').each(function () {
             var $dateField = $(this);
             var $dateLink = $dateField.next('.vDateField-link');
 
@@ -95,7 +95,7 @@ DateTimeWidgets.prototype = {
     initTimeWidgets: function($container) {
         $container = $container || $(document);
 
-        $container.find('.form-row .vTimeField').each(function () {
+        $container.find('.vTimeField').each(function () {
             var $timeField = $(this);
             var $timeLink = $timeField.next('.vTimeField-link');
 
